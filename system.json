@@ -1,11 +1,11 @@
 {
-  "name": "htbah",
-  "title": "How to be a Hero",
-  "description": "How to be a Hero - das Regelwerk deiner Wahl. Wir stehen für Einsteigerfreundlichkeit, Einfachheit und Freiheit.",
-  "author": "Julian",
+  "name": "htbaha",
+  "title": "How to be a Hero adjusted",
+  "description": "How to be a Hero - das Regelwerk deiner Wahl. Wir stehen für Einsteigerfreundlichkeit, Einfachheit und Freiheit. Mit ein paar persönlichen Anpassungen",
+  "author": "Faust-code",
   "version": 0.01,
-  "minimumCoreVersion": "0.7.7",
-  "compatibleCoreVersion": "0.7.9",
+  "minimumCoreVersion": "12.331",
+  "compatibleCoreVersion": "12.331",
   "esmodules": [
     "modules/main.js"
   ],
@@ -33,8 +33,8 @@
   "initiative": "1d10 + @action.points",
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": null,
-  "url": "https://github.com/julr/htbah",
-  "manifest": "https://raw.githubusercontent.com/julr/htbah/main/system.json",
-  "download": "https://github.com/julr/htbah/archive/main.zip",
+  "url": "https://github.com/Faust-code/htbaha",
+  "manifest": "https://github.com/Faust-code/htbaha/blob/master/system.json",
+  "download": "https://github.com/Faust-code/htbaha/archive/refs/heads/master.zip",
   "license": "License.txt"
 }
