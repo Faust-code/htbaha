@@ -7,3 +7,6 @@
 * [ ] Debugging Möglichkeit hinzufügen (via Option aktivierbar?)
 * [ ] Initiativwurf aus dem Charakterbogen ausblenden (via Option)
 * [ ] Bonus für Fähigkeiten deaktivierbar machen
+
+FIX Errors:
+system "htbaha" uses pack.entity which has been replaced with pack.type

@@ -1,24 +1,26 @@
 {
-  "name": "htbaha",
+  "id": "htbaha",
   "title": "How to be a Hero adjusted",
   "description": "How to be a Hero - das Regelwerk deiner Wahl. Wir stehen für Einsteigerfreundlichkeit, Einfachheit und Freiheit. Mit ein paar persönlichen Anpassungen",
-  "author": "Faust-code",
   "version": 0.01,
-  "minimumCoreVersion": "12.331",
-  "compatibleCoreVersion": "12.331",
+  "compatibility":{
+      "minimum": 12.331,
+      "verified": 12.331 
+    },
+  "authors": [{
+    "name": "Faust-code"
+  }],
   "esmodules": [
     "modules/main.js"
   ],
-  "styles": [
-    "styles/sheet.css"
-  ],
+  "styles": ["styles/sheet.css"],
   "packs": [
     {
       "name": "rules",
       "label": "Regelwerk",
       "system": "htbah",
       "path": "packs/rules.db",
-      "entity": "JournalEntry"
+      "type": "JournalEntry"
     }
   ],
   "languages": [
@@ -28,8 +30,10 @@
       "path": "lang/de.json"
     }
   ],
-  "gridDistance": 1,
-  "gridUnits": "m",
+  "grid": {
+    "distance": 1,
+    "units": "m"
+  },
   "initiative": "1d10 + @action.points",
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": null,
